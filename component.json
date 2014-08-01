@@ -2,15 +2,16 @@
   "name": "bootstrap-datetimepicker",
   "version": "3.0.0",
   "dependencies": {
-    "components/bootstrap-default": "3.2.0",
+    "components/bootstrap": "3.2.0",
     "components/jquery": ">=1.8.3",
-    "moment/moment": "<=2.7.0"
+    "moment/moment": "2.7.0"
   },
   "styles": [
     "build/css/bootstrap-datetimepicker.min.css"
   ],
   "scripts": [
+    "component.js",
     "build/js/bootstrap-datetimepicker.min.js"
   ],
-  "main": "build/js/bootstrap-datetimepicker.min.js"
+  "main": "component.js"
 }
